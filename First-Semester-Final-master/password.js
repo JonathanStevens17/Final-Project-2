@@ -1,12 +1,17 @@
 class Password{
   //The first part of the class.
-constructor (publickey, privatekey){
+constructor(pk, pvk){
   this.publickey = pk
-  this.privatekey = p
+  this.privatekey = pvk
 }
 
 
   //Instance functions below this comment.
+validpublickey(){
+
+  
+}
 
 
   //Static function below this comment.
+}

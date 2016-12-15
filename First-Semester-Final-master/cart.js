@@ -8,8 +8,8 @@ constructor(itemList, itemQuantity){
 
   //Type the instance functions below this comment.
 addItem(i, q){
-this.itemList.push(i);
-this.itemQuantity.push(q);
+let i = this.itemList.push(i);
+let q = this.itemQuantity.push(q);
 }
 
 totalCart(){
@@ -26,5 +26,7 @@ subCart(days){
       subCart.itemList.push(this.itemList[c]);
       subCart.itemQuantity.push(this.itemQuantity[c]);
     }
+
+}
 return subCart;
 }
