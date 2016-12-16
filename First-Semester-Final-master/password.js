@@ -7,10 +7,21 @@ constructor(pk, pvk){
 
 
   //Instance functions below this comment.
-validpublickey(){
-
-  
+validPublicKey(){
+ if(this.publickey.length >=8 && this.publickey.length <=25);
+   return true
+ }
+ else{
+  return false
 }
+
+validPrivateKey(){
+ if(this.privatekey[4] == )"-" && this.privatekey[9] == "-");
+   return true
+     
+}
+
+
 
 
   //Static function below this comment.
